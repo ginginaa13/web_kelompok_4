@@ -4,29 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=deviwce-width, initial-scale=1.0" />
     <title>Navbar</title>
-    <link rel="stylesheet" href="nav-css.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css`
+    rel='stylesheet'>
   </head>
   <body>
     <header>
-      <h2>WELCOME TO XXI CINEMA</h2>
-      <nav class="navbar">
-        <div class="logo">
-          <img src="./logo-removebg-preview.png" alt="XXI CINEMA" />
-        </div>
-        <nav class="menu">
+      <h1>Welcome To XXI Cinema</h1>
+      <nav>
           <ul>
-            <li><a href="#Beranda">Beranda</a></li>
-            <li><a href="#DaftarFilm">Daftar Film</a></li>
-            <li><a href="#Place">Bioskop</a></li>
-            <li><a href="#Bantuan">Bantuan</a></li>
-          </ul>
-        </nav>
-      </nav>
-      <div class="search-bar">
-        <input type="text" placeholder="Cari di XXI Cinema" required />
-      </div>
-    </header>
+              <li><a href="#home">Beranda</a></li>
+              <li><a href="#bioskop">Bioskop</a></li>
+              <li><a href="#movies">Daftar Film</a></li>
+              <li><a href="#bantuan">Bantuan</a></li>
 
-    <main></main>
+          </ul>
+      </nav>
+      <div class="location-selector">
+          <nav><span class="location-icon"><link href="/location.png"></span>
+          <select name="lokasi" id="lokasi">
+            <option value="bogor" selected>BOGOR</option>
+            <option value="bali" selected>BALI</option>
+            <option value="semarang" selected>SEMARANG</option>
+            <option value="jakarta" selected>JAKARTA</option>
+            <option value="bandung" selected>BANDUNG</option>
+            <option value="surabaya" selected>SURABAYA</option>
+            <option value="yogyakarta" selected>YOGYAKARTA</option>
+          </select></nav>
+        </div>
+      <div class="search-bar">
+          <input type="text" placeholder="Cari di XXI Cinema">
+        </div>
+  </header>
+      
+  </section>
+
+  <section id="home">
+      <h2>Recommendation Film</h2>
+      <div class="movie-list">
+          <div class="movie">
+              <img src="../Assets/Picture/poster jumbo.jpg">
+              <button>Pesan Tiket</button>
+          </div>
+          <div class="movie">
+              <img src="../Assets/Picture/poster petaka gunung gede.jpg">
+              <button>Pesan Tiket</button>
+          </div>
+          <div class="movie">
+              <img src="../Assets/Picture/poster qodrat 2.jpg">
+              <button>Pesan Tiket</button>
+          </div>
+          <div class="movie">
+                  <img src="../Assets/Picture/poster pabrik gula.webp">
+                  <button>Pesan Tiket</button>
+      </div>
+      </section>
+
+      <section id="home">
+        <h2>Coming Soon</h2>
+        <div class="movie-list">
+            <div class="movie">
+                <img src="../Assets/Picture/POSTER-Tak-Ingin-Usai-di-Sini.jpg">
+                <button>Info</button>
+            </div>
+            <div class="movie">
+                <img src="../Assets/Picture/poster petaka gunung gede.jpg">
+                <button>Info</button>
+            </div>
+            <div class="movie">
+                <img src="../Assets/Picture/poster qodrat 2.jpg">
+                <button>Info</button>
+            </div>
+            <div class="movie">
+                    <img src="../Assets/Picture/poster pabrik gula.webp">
+                    <button>Info</button>
+        </div>
+        </section>
+
+      <footer>
+        <H1>COPYRIGHT</H1>
+      </footer>
+
   </body>
 </html>

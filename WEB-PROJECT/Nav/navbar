@@ -80,7 +80,3 @@ input[type="tel"] {
   border-radius: 8px;
   cursor: pointer;
 }
-
-.footer {
-  text-align: center;
-}
