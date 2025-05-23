@@ -12,6 +12,33 @@ header {
   text-align: center;
 }
 
+.judul1 h2 {
+  background-color: #808080;
+  padding: 35px;
+}
+
+.judul2 h2 {
+  background-color: #808080;
+  padding: 35px;
+}
+
+.judul3 h2 {
+  background-color: #808080;
+  padding: 35px;
+}
+
+.rekomendasi {
+  padding-bottom: 30px;
+}
+
+.sedang {
+  padding-bottom: 30px;
+}
+
+.mendatang {
+  padding-bottom: 30px;
+}
+
 h2 {
   text-align: center;
 }
@@ -88,4 +115,5 @@ footer {
   width: 90%;
   padding: 8px;
   font-size: 16px;
+  border-radius: 35px;
 }

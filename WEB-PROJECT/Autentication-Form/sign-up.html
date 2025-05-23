@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sign Up</title>
-  <link rel="stylesheet" href="sign-up.css" />
-</head>
-<body>
-  <div class="container">
-    <h2>Sign Up</h2>
-    <form id="signupForm">
-      <input type="text" id="signupUsername" placeholder="Username" required />
-      <input type="password" id="signupPassword" placeholder="Password" required />
-      <button type="submit">Daftar</button>
-    </form>
-    <p>Sudah mempunyai akun? <a href="index.html">Sign In</a></p>
-    <p id="signupMessage"></p>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-in.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+         <form action="#" autocomplete="off">
+                <h1>Sign Up</h1>
+            <div class="input-text">
+                <input type="email" placeholder="Email" required>
+                <i class="bx bxs-envelope"></i>
+            </div>
+            <div class="input-text">
+                <input type="password" placeholder="Password" required>  
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">
+                </label>
+            </div>
+            <button type="submit" class="btn">Daftar</button>
+            <div class="register">
+                <p>Have an account?
+                    <a href="#">Login</a>
+                </p>
+            </div>
+      </form>
+  </body>
 </html>
