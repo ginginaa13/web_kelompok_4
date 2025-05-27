@@ -12,6 +12,20 @@ header {
   text-align: center;
 }
 
+.navbar-auth a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.navbar-auth a:hover {
+  background-color: white;
+  color: #333;
+}
+
 .judul1 h2 {
   background-color: #808080;
   padding: 35px;
