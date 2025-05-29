@@ -15,10 +15,11 @@ body {
 }
 
 header {
-  background: #808080;
-  color: #000000;
-  padding: 10px 0;
+  background: url(../Assets/arrangement-movie-elements-black-background.jpg);
+  color: #ffffff;
   text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .btn {
@@ -28,15 +29,16 @@ header {
   padding: 5px 10px;
   border: 1px solid white;
   border-radius: 4px;
+  cursor: pointer;
 }
 
-.btn-buy {
-  color: white;
+.movie button {
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  margin-left: 15px;
-  padding: 5px 10px;
-  border: 1px solid white;
+  padding: 5px 5px;
+  border: 1px solid rgb(79, 79, 79);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -83,7 +85,7 @@ nav ul {
 .location-selector {
   display: flex;
   align-items: center;
-  background-color: #808080;
+  background-color: transparent;
   padding: 10px 15px;
   border-radius: 10px;
   width: fit-content;
@@ -105,7 +107,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -132,7 +134,7 @@ footer {
 
 .search-bar {
   padding: 10px;
-  background-color: #808080;
+  background-color: transparent;
 }
 .search-bar input {
   width: 90%;
