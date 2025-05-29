@@ -15,11 +15,12 @@ body {
 }
 
 header {
-  background: url(../Assets/arrangement-movie-elements-black-background.jpg);
+  background: url(..//Assets/header.jpg);
   color: #ffffff;
   text-align: center;
   align-items: center;
   padding: 10px;
+  width: auto;
 }
 
 .btn {
@@ -96,7 +97,7 @@ nav ul {
   background: transparent;
   font-size: 16px;
   font-weight: bold;
-  color: #000000;
+  color: #ffffff;
   outline: none;
   cursor: pointer;
 }
