@@ -1,0 +1,135 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .top {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .poster img {
+    width: 120px;
+    border-radius: 12px;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .info h2 {
+    margin: 0;
+  }
+  
+  .info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .rating {
+    color: #f39c12;
+  }
+  
+  .watchlist {
+    margin-top: 6px;
+    cursor: pointer;
+    color: #c0392b;
+    font-weight: bold;
+  }
+  
+  .watchlist.active {
+    color: green;
+  }
+  
+  .section-title {
+    margin-top: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .schedule,
+  .showtimes {
+    display: flex;
+    gap: 8px;
+    margin: 12px 0;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .box.active {
+    background-color: #0b2c61;
+    color: white;
+    border: none;
+  }
+  
+  .cinema-info {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .seat-layout {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 8px;
+  }
+  
+  .seat {
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background: #ff9800;
+    color: #fff;
+  }
+  
+  .seat.occupied {
+    background: #999;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  .buy-button {
+    margin-top: 16px;
+    background: #ccc;
+    color: #555;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: not-allowed;
+    font-weight: bold;
+  }
+  
+  .buy-button.active {
+    background: #e67e22;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .price {
+    margin-top: 10px;
+  }
+  

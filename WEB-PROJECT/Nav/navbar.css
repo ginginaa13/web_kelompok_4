@@ -5,6 +5,15 @@ body {
   background-color: #f4f4f4;
 }
 
+.movie {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
 header {
   background: #808080;
   color: #000000;
@@ -13,6 +22,15 @@ header {
 }
 
 .btn {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.btn-buy {
   color: white;
   text-decoration: none;
   margin-left: 15px;
@@ -95,15 +113,6 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   margin: 20px;
-}
-
-.movie {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  width: 200px;
 }
 
 .movie img {
