@@ -1,80 +1,134 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", sans-serif;
   margin: 0;
-  background-color: #f5f5f5;
-}
-.header {
-  background-image: url("../Assets/Picture/poster\ jumbo.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-  position: relative;
+  background: #f9f9f9;
 }
 
 .container {
+  max-width: 700px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background-color: white;
 }
 
-.poster {
+.top {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  margin: 0;
-  width: 300px;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: #fff;
-}
-.poster img {
-  width: 100%;
-  height: auto;
+  gap: 16px;
 }
 
-.title {
-  font-size: 22px;
+.poster img {
+  width: 120px;
+  border-radius: 12px;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h2 {
+  margin: 0;
+}
+
+.info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.rating {
+  color: #f39c12;
+}
+
+.watchlist {
+  margin-top: 6px;
+  cursor: pointer;
+  color: #c0392b;
   font-weight: bold;
 }
-.info {
-  margin-top: 10px;
-  color: #555;
-}
-.rating {
-  margin-top: 10px;
-  color: #f5a623;
-  font-size: 20px;
-}
-.watchlist {
-  color: #d00;
+
+.watchlist.active {
+  color: green;
 }
 
-.header::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.active {
-  background-color: #102a52;
-  color: white;
-}
-.cinema {
+.section-title {
   margin-top: 20px;
-  padding: 10px;
-  border-top: 1px solid #eee;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
 }
-.button {
-  display: block;
-  margin: 20px auto;
-  background-color: #717171;
-  padding: 10px 20px;
+
+.schedule,
+.showtimes {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+
+.box {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  text-align: center;
+}
+
+.box.active {
+  background-color: #0b2c61;
   color: white;
   border: none;
+}
+
+.cinema-info {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.seat-layout {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.seat {
+  background: #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background: #ff9800;
+  color: #fff;
+}
+
+.seat.occupied {
+  background: #999;
+  color: white;
+  cursor: not-allowed;
+}
+
+.buy-button {
+  margin-top: 16px;
+  background: #ccc;
+  color: #555;
+  padding: 12px;
+  text-align: center;
   border-radius: 8px;
+  cursor: not-allowed;
+  font-weight: bold;
+}
+
+.buy-button.active {
+  background: #e67e22;
+  color: #fff;
+  cursor: pointer;
+}
+
+.price {
+  margin-top: 10px;
 }

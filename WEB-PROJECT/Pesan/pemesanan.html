@@ -3,25 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pemesanan</title>
+    <title>Pesan Tiket</title>
     <link rel="stylesheet" href="pemesanan.css" />
   </head>
   <body>
-    <div class="header"></div>
     <div class="container">
-      <div class="poster">
-        <img src="../Assets/Picture/poster jumbo.jpg" alt="" />
+      <div class="top">
+        <div class="poster">
+          <img src="../Assets/Picture/poster jumbo.jpg" alt="Poster Jumbo" />
+        </div>
+        <div class="info">
+          <h2>JUMBO</h2>
+          <p><strong>Genre:</strong> Animation</p>
+          <p><strong>Durasi:</strong> 1 jam 42 menit</p>
+          <p><strong>Sutradara:</strong> Ryan Adriandhy</p>
+          <p><strong>Rating Usia:</strong> SU</p>
+          <p class="rating">⭐ 9.7 (47.463 Vote)</p>
+          <div class="watchlist" id="watchlist">
+            ❤ Masukkan watchlist (95.942 Orang)
+          </div>
+        </div>
       </div>
-      <div class="title">JUMBO</div>
-      <div class="info">
-        Genre: Animasi, Komedi, Petualangan, Fantasi | Durasi: 1 jam 42 menit
-      </div>
-      <div class="info">Sutradara: Ryan Adriandhy</div>
-      <div class="info">Rating Usia: Semua Umur</div>
 
-      <div class="rating">9.3 ★★★★★ (10.758 Vote)</div>
-      <div class="watchlist">+ Masukkan watchlist (41.520 Orang)</div>
-      <button class="button" disabled>BELI TIKET</button>
+      <div class="section-title">Jadwal Tayang</div>
+      <div class="schedule">
+        <div class="box active" data-date="29 Mei">29 Mei</div>
+        <div class="box" data-date="30 Mei">30 Mei</div>
+        <div class="box" data-date="31 Mei">31 Mei</div>
+        <div class="box" data-date="1 Juni">1 Juni</div>
+        <div class="box" data-date="2 Juni">2 Juni</div>
+        <div class="box" data-date="3 Juni">3 Juni</div>
+        <div class="box" data-date="4 Juni">4 Juni</div>
+      </div>
+
+      <div class="section-title">Jam Tayang</div>
+      <div class="showtimes">
+        <div class="box" data-time="13:00">13:00</div>
+        <div class="box" data-time="15:30">15:30</div>
+        <div class="box" data-time="18:00">18:00</div>
+      </div>
+
+      <div class="price">Harga per tiket: <strong>Rp55.000</strong></div>
+      <div class="buy-button" id="buyBtn">🎟 BELI TIKET</div>
     </div>
   </body>
 </html>
